@@ -9,6 +9,7 @@ def cmd_group():
 
 #creates command for sin function
 @cmd_group.command()
+#creates option to determine amount of steps
 @click.option(
     "-n",
     "--number",
@@ -27,6 +28,7 @@ def sin(number):
 
 #creates command for tan function
 @cmd_group.command()
+#creates option to determine amount of steps
 @click.option(
     "-n",
     "--number",
