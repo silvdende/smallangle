@@ -12,7 +12,7 @@ def cmd_group():
 @click.option(
     "-n",
     "--number",
-    default=10,
+    default = 0,
     help="Number of steps between 0 and 2pi.",
     show_default=True,  # show default in help
 )
@@ -26,7 +26,7 @@ def sin(number):
 @click.option(
     "-n",
     "--number",
-    default=10,
+    default = 0,
     help="Number of steps between 0 and 2pi.",
     show_default=True,  # show default in help
 )
